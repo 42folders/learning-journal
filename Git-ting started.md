@@ -1,4 +1,4 @@
-
+# Adding a new git repo to GitHub
 I've just added a new git repo to my Github with the following code that Github provides as a guide:
 
 To use these lines, open up a Terminal window. At the command line, change directory to the folder which you want to create a local repo:
@@ -44,9 +44,8 @@ To push commits to the remote repo (to branch called "main"):
 > git push origin main
 ```
 
-https://www.git-tower.com/learn/git/commands/git-remote#:~:text=%2Dv,the%20remote's%20URLs%20in%20listings.
 
-**I have an existing folder that is in the local repository that isn't showing up in remote. How do I add the folder?**
+##**I have an existing folder that is in the local repository that isn't showing up in remote. How do I add the folder?**
 
 The folder cannot be empty. It needs to have at least 1 file in it. Just do an 'add':
 ``` 
@@ -54,7 +53,8 @@ The folder cannot be empty. It needs to have at least 1 file in it. Just do an '
 ```
 Then commit and push as usual. 
 
-**How do I know what is my remote origin's name?**
+
+## **How do I know what is my remote origin's name?**
 The default name is usually 'origin'
 
 To find out what is the remote origin, enter this at the command line;  adding the -v flag displays its URL:
@@ -63,8 +63,9 @@ To find out what is the remote origin, enter this at the command line;  adding t
 origin https://github.com/42folders/news-classifier.git (fetch)
 origin https://github.com/42folders/news-classifier.git (push)
 ```
+[Other notes on git remote](https://www.git-tower.com/learn/git/commands/git-remote#:~:text=%2Dv,the%20remote's%20URLs%20in%20listings)
 
-**How do I remove a file from being tracked by git?**
+## **How do I remove a file from being tracked by git?**
 ```
 > git rm --cached <path_to_file>
 ```
@@ -72,13 +73,15 @@ After that, do a commit and push.
 
 https://stackoverflow.com/questions/50034192/how-to-commit-changes-made-after-git-rm-cached#:~:text=No%20need%20for%20git%20add,commit%2Bpush%20will%20be%20enough.&text=If%20you%20don't%20want,don't%20want%20to%20push.
 
-**If I have renamed a file and then added, committed and pushed the renamed file, the original file before renaming still exists in the remote repository. How do I get rid of that original in the remote repo?**
+
+## **If I have renamed a file locally and then pushed it to the remote repo, I still see the original file in the remote repo. How do I get rid of that original?**
 
 At this point, git status will reflect the original file has been deleted from the local repo.
 
 I'll need to remove that original file from being tracked using git rm -- cached <orig_file_path> as well. Thereafter, commit and push. 
 
-**There's this pesky editor window that's popping up to ask for my commit message, and I have no idea how to enter any text into it!** 
+
+## **There's this pesky editor window that's popping up to ask for my commit message, and I have no idea how to enter any text into it!** 
 When using git, and there is some commit merge operation (or i forgot to type a commit message), I'll sometimes run into an editor window ("vi") asking for a commit message, and I never remember how to enter text into it -- clicking with the mouse, enter, escape, delete keys don't do anything! And I have to go google...
 
 It's comforting to know I'm not the only one who's been flustered by this: https://stackoverflow.com/questions/73012357/please-enter-a-commit-message-for-your-changes
