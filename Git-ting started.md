@@ -90,6 +90,9 @@ To commit that to memory, I tell myself:
 **"I write and escape worq"**
 
 I for insert,
-write your comment
+
+write your comment,
+
 ESC to escape,
+
 :wq to quit. 
