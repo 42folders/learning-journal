@@ -81,14 +81,15 @@ At this point, git status will reflect the original file has been deleted from t
 I'll need to remove that original file from being tracked using git rm -- cached <orig_file_path> as well. Thereafter, commit and push. 
 
 
-## **There's this pesky editor window that's popping up to ask for my commit message, and I have no idea how to enter any text into it!** 
-When using git, and there is some commit merge operation (or i forgot to type a commit message), I'll sometimes run into an editor window ("vi") asking for a commit message, and I never remember how to enter text into it -- clicking with the mouse, enter, escape, delete keys don't do anything! And I have to go google...
+## **An editor window pops up, asking for my commit message. How do I enter text into it?** 
+If forgot to type a commit message, an editor window ("vi") pops up asking for a commit message -- clicking with the mouse, enter, escape, delete keys don't do anything, and I have to go google...
 
 It's comforting to know I'm not the only one who's been flustered by this: https://stackoverflow.com/questions/73012357/please-enter-a-commit-message-for-your-changes
 
-To commit that to memory, I'll just tell myself: 
-**"I-escape-work"**
+To commit that to memory, I tell myself: 
+**"I write and escape worq"**
 
-I for insert, 
+I for insert,
+write your comment
 ESC to escape,
 :wq to quit. 
