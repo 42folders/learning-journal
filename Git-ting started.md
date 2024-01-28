@@ -82,7 +82,7 @@ I'll need to remove that original file from being tracked using git rm -- cached
 
 
 ## **An editor window pops up, asking for my commit message. How do I enter text into it?** 
-If forgot to type a commit message, an editor window ("vi") pops up asking for a commit message -- clicking with the mouse, enter, escape, delete keys don't do anything, and I have to go google...
+If I forgot to type a commit message, an editor window ("vi") pops up asking for a commit message -- clicking with the mouse, enter, escape, delete keys don't do anything, and I have to go google...
 
 It's comforting to know I'm not the only one who's been flustered by this: https://stackoverflow.com/questions/73012357/please-enter-a-commit-message-for-your-changes
 
