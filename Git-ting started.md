@@ -24,25 +24,13 @@ These lines will create a README markdown file with the header "# news-classifie
 
 # Must-know commands
 
-To check what files are being tracked by git and what aren't:
-```
-> git status
-```
-
-To add a new file to the local repository
-```
-> git add <new_file_to_be_tracked>
-```
-
-To make a commit: 
-```
-> git commit -m "my commit message"
-```
-
-To push commits to the remote repo (to branch called "main"): 
-```
-> git push origin main
-```
+Command|What it does|
+----|----|
+```> git status ``` |To check what files are being tracked by git and what aren't |
+```> git add <new_file_to_be_tracked> ``` |To add a new file to the local repository|
+```> git commit -m "my commit message" ``` |To make a commit |
+```> git push origin main```|To push commits to the remote repo (to branch called "main")|
+```> git stash```|To put away a commit, so it doesn't get overwritten during a fetch or pull operation|
 
 
 ##**I have an existing folder that is in the local repository that isn't showing up in remote. How do I add the folder?**
@@ -55,9 +43,7 @@ Then commit and push as usual.
 
 
 ## **How do I know what is my remote origin's name?**
-The default name is usually 'origin'
-
-To find out what is the remote origin, enter this at the command line;  adding the -v flag displays its URL:
+The default name is usually 'origin'. To find out what is the remote origin, enter this at the command line;  adding the -v flag displays its URL:
 ```
 > git remote -v
 origin https://github.com/42folders/news-classifier.git (fetch)
