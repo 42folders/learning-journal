@@ -51,6 +51,7 @@ origin https://github.com/42folders/news-classifier.git (fetch)
 origin https://github.com/42folders/news-classifier.git (push)
 ```
 [Other notes on git remote](https://www.git-tower.com/learn/git/commands/git-remote#:~:text=%2Dv,the%20remote's%20URLs%20in%20listings)
+
 [How to push an existing project to GitHub](https://www.digitalocean.com/community/tutorials/how-to-push-an-existing-project-to-github)
 
 ## **How do I remove a file from being tracked by git?**
