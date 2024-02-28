@@ -31,9 +31,10 @@ Command|What it does|
 ```> git commit -m "my commit message" ``` |To make a commit |
 ```> git push origin main```|To push commits to the remote repo (to branch called "main")|
 ```> git stash```|To put away a commit, so it doesn't get overwritten during a fetch or pull operation|
+```> git push -u -f origin main```|-u sets the remote origin as the 'upstream' reference; -f forces the overwrite of everything in the remote directory|
 
 
-##**I have an existing folder that is in the local repository that isn't showing up in remote. How do I add the folder?**
+## **I have an existing folder that is in the local repository that isn't showing up in remote. How do I add the folder?**
 
 The folder cannot be empty. It needs to have at least 1 file in it. Just do an 'add':
 ``` 
@@ -50,6 +51,7 @@ origin https://github.com/42folders/news-classifier.git (fetch)
 origin https://github.com/42folders/news-classifier.git (push)
 ```
 [Other notes on git remote](https://www.git-tower.com/learn/git/commands/git-remote#:~:text=%2Dv,the%20remote's%20URLs%20in%20listings)
+[How to push an existing project to GitHub](https://www.digitalocean.com/community/tutorials/how-to-push-an-existing-project-to-github)
 
 ## **How do I remove a file from being tracked by git?**
 ```
